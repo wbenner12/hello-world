@@ -1,0 +1,7 @@
+Services:
+- Type: web
+  Name: Hello-World-App
+  env: ruby
+  Plan: free
+  buildCommand: bundle install
+  startCommand: bundle exec ruby app.rb
